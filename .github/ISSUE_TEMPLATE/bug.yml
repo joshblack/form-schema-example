@@ -3,6 +3,62 @@ description: File a bug report
 title: "[Bug]: "
 labels: [bug]
 body:
+  - type: textarea
+    id: description
+    attributes:
+      label: About
+      description: "Tell us more about the problem that you're running into"
+      validations:
+        required: true
+  - type: input
+    id: example-url
+    attributes:
+      label: CodeSandbox
+      description: "Use our [CodeSandbox](https://codesandbox.io/s/github/carbon-design-system/carbon/tree/main/packages/react/examples/codesandbox) to re-create the issue"
+      validations:
+        required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+      description: "How do we reproduce the error you described using the CodeSandbox link above?"
+      validations:
+        required: true
+  - type: dropdown
+    id: package
+    attributes:
+      label: Packages
+      description: What package(s) are you using?
+      multiple: true
+      options:
+        - carbon-components
+        - carbon-components-react
+        - @carbon/icons-react
+        - @carbon/icons
+        - @carbon/colors
+        - @carbon/elements
+        - @carbon/grid
+        - @carbon/icons-vue
+        - @carbon/layout
+        - @carbon/motion
+        - @carbon/pictograms
+        - @carbon/pictograms-react
+        - @carbon/themes
+        - @carbon/type
+        - @carbon/upgrade
+      validations:
+        required: true
+  - type: dropdown
+    id: browser
+    attributes:
+      label: Browsers
+      description: Is this issue showing up in a particular browser?
+      multiple: true
+      options:
+        - Chrome
+        - Safari
+        - Firefox
+        - Edge
   - type: checkboxes
     id: terms
     attributes:
