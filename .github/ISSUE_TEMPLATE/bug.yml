@@ -8,22 +8,22 @@ body:
     attributes:
       label: About
       description: "Tell us more about the problem that you're running into"
-      validations:
-        required: true
+    validations:
+      required: true
   - type: input
     id: example-url
     attributes:
       label: CodeSandbox
       description: "Use our [CodeSandbox](https://codesandbox.io/s/github/carbon-design-system/carbon/tree/main/packages/react/examples/codesandbox) to re-create the issue"
-      validations:
-        required: true
+    validations:
+      required: true
   - type: textarea
     id: reproduce
     attributes:
       label: Steps to reproduce
       description: "How do we reproduce the error you described using the CodeSandbox link above?"
-      validations:
-        required: true
+    validations:
+      required: true
   - type: dropdown
     id: package
     attributes:
