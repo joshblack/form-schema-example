@@ -46,8 +46,8 @@ body:
         - '@carbon/themes'
         - '@carbon/type'
         - '@carbon/upgrade'
-      validations:
-        required: true
+    validations:
+      required: true
   - type: dropdown
     id: browser
     attributes:
