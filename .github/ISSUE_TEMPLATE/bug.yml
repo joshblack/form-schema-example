@@ -3,7 +3,7 @@ description: File a bug report
 title: "[Bug]: "
 labels: [bug]
 body:
-- type: checkboxes
+  - type: checkboxes
     id: terms
     attributes:
       label: Code of Conduct
