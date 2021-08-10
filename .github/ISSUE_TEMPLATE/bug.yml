@@ -31,21 +31,21 @@ body:
       description: What package(s) are you using?
       multiple: true
       options:
-        - carbon-components
-        - carbon-components-react
-        - @carbon/icons-react
-        - @carbon/icons
-        - @carbon/colors
-        - @carbon/elements
-        - @carbon/grid
-        - @carbon/icons-vue
-        - @carbon/layout
-        - @carbon/motion
-        - @carbon/pictograms
-        - @carbon/pictograms-react
-        - @carbon/themes
-        - @carbon/type
-        - @carbon/upgrade
+        - 'carbon-components'
+        - 'carbon-components-react'
+        - '@carbon/icons-react'
+        - '@carbon/icons'
+        - '@carbon/colors'
+        - '@carbon/elements'
+        - '@carbon/grid'
+        - '@carbon/icons-vue'
+        - '@carbon/layout'
+        - '@carbon/motion'
+        - '@carbon/pictograms'
+        - '@carbon/pictograms-react'
+        - '@carbon/themes'
+        - '@carbon/type'
+        - '@carbon/upgrade'
       validations:
         required: true
   - type: dropdown
